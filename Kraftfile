@@ -1,0 +1,7 @@
+spec: v0.6
+
+runtime: python:3.12
+
+rootfs: ./Dockerfile
+
+cmd: ["uv", "run", "rio", "run", "--port", "8000", "--release"]
